@@ -1,0 +1,7 @@
+src
+node_modules
+npm-debug.log
+.DS_STORE
+*.swp
+package.json
+bower.json
