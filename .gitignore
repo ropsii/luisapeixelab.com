@@ -5,3 +5,4 @@ npm-debug.log
 *.swp
 package.json
 bower.json
+*.sketch
