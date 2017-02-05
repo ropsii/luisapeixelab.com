@@ -756,7 +756,7 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
-.sans-serif { font-family: "droid sans", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: "droid serif", georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
@@ -895,7 +895,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -l  = large
 
 */
-.tracked { letter-spacing: .1em; }
+.tracked { letter-spacing: .075em; }
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega { letter-spacing: .25em; }
 /*
@@ -933,6 +933,8 @@ a:hover { text-decoration: underline; }
 
 */
 .list { list-style-type: none; }
+.list-custom { list-style-type: none; margin-left: 0; padding-left: 1em; text-indent: -1em; }
+.list-custom li:before { content: "•"; color: #5e2ca5; display: inline-block; width: 1em; text-indent: 0; }
 /*
 
    MAX WIDTHS
@@ -2230,7 +2232,7 @@ a:hover { text-decoration: underline; }
  .min-vh-100-ns { min-height: 100vh; }
  .h-auto-ns { height: auto; }
  .h-inherit-ns { height: inherit; }
- .tracked-ns { letter-spacing: .1em; }
+ .tracked-ns { letter-spacing: .075em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
  .lh-solid-ns { line-height: 1; }
@@ -2644,7 +2646,7 @@ a:hover { text-decoration: underline; }
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
- .tracked-m { letter-spacing: .1em; }
+ .tracked-m { letter-spacing: .075em; }
  .tracked-tight-m { letter-spacing: -.05em; }
  .tracked-mega-m { letter-spacing: .25em; }
  .lh-solid-m { line-height: 1; }
@@ -3052,7 +3054,7 @@ a:hover { text-decoration: underline; }
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
- .tracked-l { letter-spacing: .1em; }
+ .tracked-l { letter-spacing: .075em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
  .lh-solid-l { line-height: 1; }
