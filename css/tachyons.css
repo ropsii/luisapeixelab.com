@@ -757,7 +757,7 @@ img { max-width: 100%; }
 
 */
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-.serif { font-family: "droid serif", georgia, times, serif; }
+.serif { font-family: "pt serif", georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
 /* Monospaced Typefaces (for code) */
